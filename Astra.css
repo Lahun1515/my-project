@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(50, 80, 118,1);
+    min-height: 27vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+nav h1{
+    color: white;
+    font-size: 40px;
+    margin-left: 50px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    margin: 25px;
+    list-style: none;
+    
+}
+nav ul li a{
+    font-size: 26px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.sol{
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+}
+.div1{
+    padding: 40px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+.div1 h1{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+.div1 p{
+    margin-top: 30px;
+    color: gray;
+    font-size: 22px;
+}
+.sol button{
+    background: rgb(134, 171, 195);
+    line-height: 60px;
+    border-radius: 100px;
+    width: 150px;
+    border: none;
+    color: white;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.sol a{
+        font-size: 24px;
+        text-decoration: none;
+         color: whitesmoke;
+    }
+    .nav2{
+    background: gainsboro;
+    width: 100%;
+    display: flex;
+    }
+    .nav2 ul{
+        display: flex;
+       margin-left: 100px;
+    }
+    .nav2 ul li a{
+        color: black;
+        list-style: none;
+        margin: 50px;
+        margin-left: 30px;
+    }
+.sol img{
+    margin-right: 100px;
+    margin-bottom: 68px;
+    width: 600px;
+    height: 350px;
+}
+.about{
+    width: 90%;
+    margin-left: 120px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.about .line{
+    width: 80px;
+    height: 4px;
+    background: #03dbfc;
+    border-radius: 5px;
+    margin: 10px auto;
+    margin-top: 0px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 200px;
+    margin-top: 0px;
+}
+.list1{
+    margin: 30px;
+    padding: 20px;
+}
+.list1 ul li{
+list-style: none;
+margin-top: 10px;
+margin-left: 15px;
+}
+ .nav2 #lill{
+    font-family:'Franklin Gothic Medium', 
+    
+}
+  .btn{
+    border: 3px solid lightskyblue;
+    background: transparent;
+    margin-top: 30px;
+    margin-left: 100px;
+    font-size: 20px;
+    width: 150px;
+    line-height: 38px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    cursor: pointer;
+  } 
+.start{
+    border: 2px solid white;
+    border-radius: 60px;
+    
+}
+.list1 p{
+    font-size: 18px;
+}
+.less{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color:  rgb(245, 245, 245);
+}
+.text{
+    width: 60%;
+   margin-top: 15px;
+   padding: 20px;
+}
+.text h1{
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.text h1 span{
+ color: aqua;
+}
+.images img{
+width: 600px;
+margin-left: 30px;
+margin-top: 20px;
+}
